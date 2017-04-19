@@ -1,0 +1,12 @@
+In this puzzle, we are suppsed to find active nodes ('0') withing the grid. Once found, then we have to find the next active  node to the 
+right, and the next active node down the grid. If no active node is found. For each active node, we need to print their coordinates (x y);
+and if no active nodes are found, then print negative coordinates (-1 -1)
+Example1: If there's one active node to the right, and no active nodes down, then it should print: x0 y0 x1 y1 -1 -1.
+Example2: If there's one active node down but no active nodes to the right, then it should print: x0 y0 -1 -1 x2 y2.
+Example3: If no active nodes are found on either axis, then it should print: x0 y0 -1 -1 -1 -1.
+Example4: If active nodes are found on both axis, then it should print all coordinates: x0 y0 x1 y1 x2 y2.
+
+I used good old conditions and loops along with a two dimentional array. There are other possible solutions, likely shorter than mine.
+At any rate. Feel free to use this one as a guide. I have commented it on key areas of the process.
+
+Cheers.
